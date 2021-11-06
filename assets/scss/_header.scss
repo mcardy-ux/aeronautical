@@ -185,11 +185,11 @@
   position: fixed;
   z-index: 999;
   width: 100%;
-  background: $heding;
+  background: #072451;
   top: 0;
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   @include transition(0.4s);
-  box-shadow: 0 0 10px 3px rgba(7, 36, 81, 100);
+  box-shadow: 0 0 10px 3px rgba(7, 36, 81, 99);
   & .logo {
     transform: translateY(2px);
   }
