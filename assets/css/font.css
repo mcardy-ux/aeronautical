@@ -1,29 +1,35 @@
 @font-face {
-    font-family: 'thinkregular';
-    src: url('beginning_of_summer_3.woff2') format('woff2'),
-         url('beginning_of_summer_3.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'Beginning of Summer';
-    src: url('../fonts/BeginningofSummer.woff2') format('woff2'),
-        url('../fonts/BeginningofSummer.woff') format('woff'),
-        url('../fonts/BeginningofSummer.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Cabin Regular";
+  src: url("../fonts/Cabin-Regular.eot");
+  src: local("Cabin Regular"), local("Cabin-Regular"),
+    url("../fonts/Cabin-Regular.eot") format("embedded-opentype"),
+    url("../fonts/Cabin-Regular.woff2") format("woff2"),
+    url("../fonts/Cabin-Regular.woff") format("woff"),
+    url("../fonts/Cabin-Regular.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Beginning of Summer';
-    src: url('../fonts/BeginningofSummer_1.woff2') format('woff2'),
-        url('../fonts/BeginningofSummer_1.woff') format('woff'),
-        url('../fonts/BeginningofSummer_1.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Cabin SemiBold";
+  src: url("../fonts/Cabin-Regular.eot");
+  src: local("Cabin SemiBold"), local("Cabin-SemiBold"),
+    url("../fonts/Cabin-SemiBold.eot") format("embedded-opentype"),
+    url("../fonts/Cabin-SemiBold.woff2") format("woff2"),
+    url("../fonts/Cabin-SemiBold.woff") format("woff"),
+    url("../fonts/Cabin-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cabin Italic";
+  src: url("../fonts/Cabin-Italic.eot");
+  src: local("Cabin Italic"), local("Cabin-Italic"),
+    url("../fonts/Cabin-Italic.eot") format("embedded-opentype"),
+    url("../fonts/Cabin-Italic.woff2") format("woff2"),
+    url("../fonts/Cabin-Italic.woff") format("woff"),
+    url("../fonts/Cabin-Italic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
