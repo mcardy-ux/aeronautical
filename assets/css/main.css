@@ -441,9 +441,9 @@ section-title
 
 .sub-title {
   color: rgba(0, 0, 0, 0.8);
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Cabin Regular";
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.6;
 }
 
@@ -9985,3 +9985,28 @@ input.main-search-input:-ms-input-placeholder {
   transform: rotate(50deg);
 }
 /*# sourceMappingURL=main.css.map */
+@media only screen and (min-width: 1201px) and (max-width: 1290px) {
+  .slider-ai-img {
+    position: absolute;
+    right: 0;
+    top: 97px;
+    z-index: 1;
+    width: 620px;
+    background-color: rgba(255, 255, 255, 0.74);
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .slider-ai-img {
+    position: absolute;
+    right: 0;
+    top: 197px;
+    z-index: 1;
+    width: 430px;
+    background-color: rgba(255, 255, 255, 0.74);
+  }
+}
+@media only screen and (max-width: 980px) {
+  .slider-ai-img {
+    display: none;
+  }
+}
